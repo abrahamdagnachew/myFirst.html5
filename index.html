@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HTML PROJECT</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.a {
+  text-align: center;
+}
+
+div.b {
+  text-align: left;
+}
+
+div.c {
+  text-align: right;
+} 
+
+div.d {
+  text-align: justify;
+} 
+.button {
+  background-color: rgb(255, 255, 255);
+  border: 5px;
+  border-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+}
+
+nav {
+  float: left;
+  width: 100%;
+  height: 100px;
+  background: #000000;
+  color: #ffffff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  height: 300px;
+  background-color: #dddddd
+}
+aside {
+    float: left;
+    padding: 20px;
+    width: 30%;
+     background-color: #b6b6b6;
+    height: 300px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: rgb(161, 161, 161);
+  padding: 10px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: auto;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h2>HTML5 Layout</h2>               
+</header>
+<section>
+  <nav>
+    <ul>
+      <div class="a">
+        <li ><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </div>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Title</h1>
+    <p>Lorem ipusm dolor sit amet consectetur adipisicing elit. Rerum veniam deserunt similique, 
+        facilis consectetur, aperiam non quisquam quas sapiente accusantium ea, nequedebitis. Fuga id 
+        ispam asperiores, preferendis quos excepturi!</p>
+    <p>Lorem ipusm dolor sit amet consectetur adipisicing elit. Aliquam, facere praesentium accusamus
+        exercitationem nam quibusdam placent tempore! Numquan amet ab harum beatae, consectetur nihil
+        culpa cupiditate! Natus reiciendis libero non.
+    </p>
+    <button class="button">More News</button>
+  </article>
+  <aside>
+      <h1>Catagories</h1>
+      <p><div class="a">Latest News 05/19/20</div></p>
+      <p><div class="a">Latest News 05/20/20</div></p>
+    </aside>
+</section>
+
+<footer>
+  <p>@2020 Promising Journey</p>
+</footer>
+
+</body>
+</html>
