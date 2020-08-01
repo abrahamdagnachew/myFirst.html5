@@ -1,137 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>HTML PROJECT</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-div.a {
-  text-align: center;
-}
+    <html lang="en">
+    <head>
+        <title>BLM Website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/b4912884ac.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section>
+            <nav>
+                <ul>
+                    <div class="a">
+                        <li ><a href="#">Home</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </div>
+                </ul>
+            </nav>
+        
+        <article>
+            <h1 class="double">BLACK LIVES MATTER</h1>
+            <img src="https://secureservercdn.net/198.71.233.138/wzb.b3c.myftpupload.com/wp-content/uploads/2020/05/blacklivesmatter.png" width="274px" height="274px">
+            <img src="https://www.ppaoregon.org/media/uploads/blog/blmblm.jpg" width="274px" height="274px">
+        </article>
 
-div.b {
-  text-align: left;
-}
+        <aside>
+            <div class="b">
+                <p class="tilt">
+                    <img class="floatR" src="Colin Kapernick.jpg" width="150" height="250">
+                    These past couple years have been absolutly tragic. It seemed as if every other week I was 
+                    watching another black person being murdered by police or another racist person. I once thought 
+                    that we had become equal from the civil rights act, but I now know that the only thing that 
+                    happened is that racism has taken another form.
 
-div.c {
-  text-align: right;
-} 
+                    Because of the color of my skin I am 3 times the more to die at the hands of a police officer 
+                    compared to a white man. In addition, 99% of police officers who are involoved in killings do 
+                    not get charged. Black Lives Matter is a movement for equality. We want to be treated 
+                    the same as everyone else in this country. We want police officers who abuse their authourity 
+                    to be held accountable for their actions, we want to change the justice system so it doesn't 
+                    discriminate against any race, and we want justice for all our brothers and sisters 
+                    who have died at the hands of police. We have been mistreated for 401 years now. 
+                    How long must we fight for our lives?
+                </p>
+            </div>
+            <div class="c">
+                <button class="button curve">Donate</button>
+                <i class="fab fa-cc-visa" style="font-size:24px;"></i>
+                <i class="fab fa-cc-amex" style="font-size:24px;"></i>
+                <i class="fab fa-cc-paypal" style="font-size:24px;"></i>
+            </div>
+            <div class="flex-container">
+                <div>
+                    <div class="c">
+                        <img src="James Farmer.jpg" width="75" height="125">
+                        <p class="names"> - James Farmer</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="c">
+                        <img src="Roy Wilkins.jpg" width="75" height="125">
+                        <p class="names">- Roy Wilkins</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="c">
+                        <img src="Philip Randolph.jpg" width="75" height="125">
+                        <p class="names">- Philip Randolph</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="c">
+                        <img src="Martin Luther King Jr.jpg" width="75" height="125">
+                        <p class="names">- Martin Luther King Jr.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="c">
+                        <img src="Malcolm X.jpg" width="75" height="125">
+                        <p class="names">- El-Hajj Malik El-Shabazz</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="c">
+                        <img src="Whitney Young.jpg" width="75" height="125">
+                        <p class="names">- Whitney Young</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="c">
+                        <img src="John Lewis.jpg" width="75" height="125">
+                        <p class="names">- John Lewis</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-spacing">
+                <img class="floatL" src="BLM-Protest.jpg" width="415" height="250">
+                <img class="floatR" src="MLK-Protest.jpg" width="495" height="250">
+            </div>
+        </aside>
+        </section>
 
-div.d {
-  text-align: justify;
-} 
-.button {
-  background-color: rgb(255, 255, 255);
-  border: 5px;
-  border-color: rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-* {
-  box-sizing: border-box;
-}
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-  background-color: #ffffff;
-  padding: 10px;
-  text-align: center;
-  font-size: 35px;
-  color: rgb(0, 0, 0);
-}
-
-nav {
-  float: left;
-  width: 100%;
-  height: 100px;
-  background: #000000;
-  color: #ffffff;
-  padding: 20px;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  height: 300px;
-  background-color: #dddddd
-}
-aside {
-    float: left;
-    padding: 20px;
-    width: 30%;
-     background-color: #b6b6b6;
-    height: 300px;
-}
-
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-footer {
-  background-color: rgb(161, 161, 161);
-  padding: 10px;
-  text-align: center;
-  color: white;
-  width: 100%;
-  height: auto;
-}
-
-</style>
-</head>
-<body>
-
-<header>
-  <h2>HTML5 Layout</h2>               
-</header>
-<section>
-  <nav>
-    <ul>
-      <div class="a">
-        <li ><a href="#">Home</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </div>
-    </ul>
-  </nav>
-  
-  <article>
-    <h1>Title</h1>
-    <p>Lorem ipusm dolor sit amet consectetur adipisicing elit. Rerum veniam deserunt similique, 
-        facilis consectetur, aperiam non quisquam quas sapiente accusantium ea, nequedebitis. Fuga id 
-        ispam asperiores, preferendis quos excepturi!</p>
-    <p>Lorem ipusm dolor sit amet consectetur adipisicing elit. Aliquam, facere praesentium accusamus
-        exercitationem nam quibusdam placent tempore! Numquan amet ab harum beatae, consectetur nihil
-        culpa cupiditate! Natus reiciendis libero non.
-    </p>
-    <button class="button">More News</button>
-  </article>
-  <aside>
-      <h1>Catagories</h1>
-      <p><div class="a">Latest News 05/19/20</div></p>
-      <p><div class="a">Latest News 05/20/20</div></p>
-    </aside>
-</section>
-
-<footer>
-  <p>@2020 Promising Journey</p>
-</footer>
-
-</body>
-</html>
+        <footer>
+            <div class="a"> 
+                <div class="end-text">
+                    Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; 
+                    only love can do that. -Martin Luther King Jr.
+                </div>
+            </div>
+            <div class="a">
+                <div class="web">@BLMAmerica</div>
+            </div>
+        </footer>
+        
+    </body>
+    </html>
